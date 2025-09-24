@@ -46,13 +46,13 @@
             <v-col md="4">
                 <v-card color="deep-purple-lighten-1">
                     <v-img 
-                    src="/images/" 
+                    src="/images/hammam-fuad-hT5oWWss0pk-unsplash.jpg" 
                     class="align-end text-white" 
                     height="200" 
                     cover>
-                    <v-card-title>Sample Text</v-card-title>
                 </v-img>
-                <v-card-subtitle> another sample text</v-card-subtitle>
+                <v-card-title>Cocktails Night!</v-card-title>
+                <v-card-subtitle> Join us this and every Thursday for our Cocktails Night and sample different cocktails and mocktails</v-card-subtitle>
                 <v-card-actions>
                     <v-btn> Read More</v-btn>
                 </v-card-actions>
@@ -61,12 +61,12 @@
             <v-col md="4">
                 <v-card color="deep-purple-lighten-1">
                     <v-img 
-                    src="/images/" 
+                    src="/images/ella-olsson-mmnKI8kMxpc-unsplash.jpg" 
                     class="align-end text-white" 
                     height="200" 
                     cover>
-                    <v-card-title>Sample Text</v-card-title>
                 </v-img>
+                <v-card-title>Diet Month</v-card-title>
                 <v-card-subtitle> another sample text</v-card-subtitle>
                 <v-card-actions>
                     <v-btn> Read More</v-btn>
@@ -80,22 +80,18 @@
         <v-row>
            <v-footer class="text-center d-flex flex-column ga-2 py-4" color="deep-purple-lighten-1">
                 <div class="d-flex ga-3">
-                <v-btn icon="'mdi-facebook'" density="comfortable" variant="text" ></v-btn>
-                <v-btn icon="'mdi-twitter'" density="comfortable" variant="text" ></v-btn>
-                <v-btn icon="'mdi-linkedin'" density="comfortable" variant="text" ></v-btn>
-                <v-btn icon="'mdi-instagram'" density="comfortable" variant="text" ></v-btn>
+                <v-btn icon="mdi-facebook" density="comfortable" variant="text" ></v-btn>
+                <v-btn icon="mdi-twitter" density="comfortable" variant="text" ></v-btn>
+                <v-btn icon="mdi-linkedin" density="comfortable" variant="text" ></v-btn>
+                <v-btn icon="mdi-instagram" density="comfortable" variant="text" ></v-btn>
                 </div>
 
                 <v-divider class="my-2" thickness="2" width="50"></v-divider>
 
-                <div class="text-caption font-weight-regular opacity-60">
-                Phasellus feugiat arcu sapien, et iaculis ipsum elementum sit amet. Mauris cursus commodo interdum. Praesent ut risus eget metus luctus accumsan id ultrices nunc. Sed at orci sed massa consectetur dignissim a sit amet dui. Duis commodo vitae velit et faucibus. Morbi vehicula lacinia malesuada. Nulla placerat augue vel ipsum ultrices, cursus iaculis dui sollicitudin. Vestibulum eu ipsum vel diam elementum tempor vel ut orci. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                </div>
-
                 <v-divider></v-divider>
 
                 <div>
-                {{ new Date().getFullYear() }} — <strong>Vuetify</strong>
+                {{ new Date().getFullYear() }} — <strong>Jikoni</strong>
                 </div>
             </v-footer>
         </v-row>
