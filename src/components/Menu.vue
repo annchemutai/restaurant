@@ -6,6 +6,7 @@ const menu = {
         image: "/images/menu/amirali-mirhashemian-sc5sTPMrVfk-unsplash.jpg",
         price: 250,
         description: 'Beef burger with cheese, onion, tomato and lettuce',
+        longDescription: "",
         category: 'Food'
     },
     1:{
