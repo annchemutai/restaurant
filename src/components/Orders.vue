@@ -1,5 +1,6 @@
 <script setup>
     const orders = JSON.parse( localStorage.getItem( "order"))
+    // sample
 </script>
 
 <template>
